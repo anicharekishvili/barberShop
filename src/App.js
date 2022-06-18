@@ -41,7 +41,7 @@ function App() {
           }
         />
         <Route
-          path='auth/signup'
+          path='auth/signup-client'
           element={
             <UnauthorizedRoutes user={activeUser}>
               <div className='containerCustom'>

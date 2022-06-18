@@ -39,7 +39,7 @@ function SignupBarber() {
         <h1>Sign Up as Barber</h1>
         <p>
           Sign Up as Client
-          <Link to='/auth/signup'>Sign Up</Link>
+          <Link to='/auth/signup-client'>Sign Up</Link>
         </p>
       </div>
       <div className='signupBarber-inputs'>

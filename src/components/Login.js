@@ -55,7 +55,7 @@ function Login({ addActiveUser }) {
           <p className='error-message'>{formErrors.wrongEmailOrPassword}</p>
           <div className='goToSigup'>
             <p>Don't Have an account?</p>
-            <Link to='/auth/signup'>Sign Up</Link>
+            <Link to='/auth/signup-client'>Sign Up</Link>
           </div>
         </div>
       </div>
