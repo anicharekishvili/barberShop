@@ -1,0 +1,61 @@
+*{
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 50px;
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            height: 100px;
+            width: 150px;
+        }
+        span{
+            font-size: 25px;
+            font-family: sans-serif;
+            cursor: pointer
+        };
+    }
+    .log-out{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+            border: 1px solid #40A7F2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            width: 90px;
+            text-decoration: none;
+            color: white;
+            border-radius: 20px;
+            background-color: #40A7F2;
+        }
+    }
+
+}
+
+.barberList{
+    display: flex;
+    align-items: center;
+    .barberlist-card{
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(243, 242, 242);
+        p{
+            line-height: 3px;
+        }
+    }
+}
